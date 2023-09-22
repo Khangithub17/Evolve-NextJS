@@ -6,7 +6,7 @@ const graphicDesign = () => {
       <section>
         <div className="container">
           <div className="title-blog">
-            <h1 style={{ color: "#485094", paddingBottom: "20px" }}>DESIGNING DREAMS,<br/>SHAPING REALITY </h1>
+            <h1 style={{ color: "#485094", paddingBottom: "20px",fontSize: "60px"  }}>DESIGNING DREAMS<br/>SHAPING REALITY </h1>
             <h3>
             Enhance Your Brand with Our Innovative Online Graphic Design Services.
             </h3>

@@ -7,9 +7,9 @@ const Branding = () => {
 
   // Define an array of image URLs for your gallery
   const imageGallery = [
-    "https://www.zeemo.com.au/upload/images/An-identity-with-integrity.webp",
-    "https://www.zeemo.com.au/upload/images/An-identity-with-integrity.webp",
-    "https://www.zeemo.com.au/upload/images/An-identity-with-integrity.webp",
+    "https://wisdomdigitalmarketing.com/assets/uploads/media-uploader/custom-made-logo-design-brand-identity-luxury-package1638866259.jpg",
+    "https://99designs-blog.imgix.net/blog/wp-content/uploads/2022/09/Logo-vs-branding.jpeg?auto=format&q=60&w=1860&h=1046.25&fit=crop&crop=faces",
+    "https://cdn.logojoy.com/wp-content/uploads/20201117163112/birdland_banner-scaled.jpg",
     // Add more image URLs as needed
   ];
 
@@ -212,7 +212,7 @@ const Branding = () => {
       {/* New Gallery Section */}
       <section>
         <div className="container r">
-          <h2 style={{ color: "black", paddingBottom: "20px", textAlign: "center",}}>GALLERY</h2>
+          <h2 style={{ color: "black", paddingBottom: "20px", textAlign: "center", fontSize: "50px",marginTop: "20px"}}>GALLERY</h2>
           <div className="row">
             {imageGallery.map((imageUrl, index) => (
               <div className="col-md-4 mb-4" key={index}>

@@ -6,7 +6,7 @@ const webdevelopment = () => {
       <section>
         <div className="container">
           <div className="title-blog">
-            <h1 style={{ color: "#485094", paddingBottom: "20px" }}>CREATING WEB MAGIC</h1>
+            <h1 style={{ color: "#485094", paddingBottom: "20px",fontSize: "60px" }}>CREATING WEB MAGIC</h1>
             <h3>
               We specialize in bespoke website design and development for
               popular systems like HTML, CSS, and React. &amp; Get a website that

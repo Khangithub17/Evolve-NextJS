@@ -6,7 +6,7 @@ const wordpressdevelopment = () => {
       <section>
         <div className="container">
           <div className="title-blog">
-            <h1 style={{ color: "#485094", paddingBottom: "20px" }}>WORDPRESS WEB DESIGN </h1>
+            <h1 style={{ color: "#485094", paddingBottom: "20px", fontSize: "60px" }}>WORDPRESS WEB <br/> DESIGN </h1>
             <h3>
             WordPress, the world's most popular Content Management System, is used to construct sleek,  &amp; fast, and adaptable websites.
             </h3>
