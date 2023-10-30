@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import MobileHeader from "./MobileHeader";
-
 const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
   const [searchToggle, setSearchToggle] = useState(false);
   const [toggle, setToggle] = useState(false);
@@ -26,8 +25,9 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                   ) : (
                     <img
                       alt="logo"
-                      src="https://res.cloudinary.com/denlhej9f/image/upload/v1694430614/logo2_6_lynvqq.png"
+                      src="assets/img/logo2.png"
                       className="logo2"
+                      style={{width: "150px",height: "auto"}}
                     />
                   )}
                 </a>

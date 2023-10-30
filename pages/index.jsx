@@ -7,7 +7,10 @@ const Index = () => {
     <Layout noHeaderBg pageName={"Home"}>
       <section
         className="hero-section-one"
-        style={{ backgroundImage: "url(https://res.cloudinary.com/denlhej9f/image/upload/v1694164457/wepik-export-20230908090659RFdl_gxx5v1.png)" }}
+        style={{
+          backgroundImage:
+            "url(https://res.cloudinary.com/denlhej9f/image/upload/v1698304298/3409297_g8yytl.jpg)",
+        }}
       >
         <div className="container">
           <div className="heading-boder">
@@ -122,7 +125,10 @@ const Index = () => {
           <div className="row">
             <div className="col-xl-6">
               <div className="welcome">
-                <img alt="img" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693892616/Evolve.img_hmhtpt.jpg" />
+                <img
+                  alt="img"
+                  src="https://res.cloudinary.com/denlhej9f/image/upload/v1693892616/Evolve.img_hmhtpt.jpg"
+                />
                 <img
                   alt="img"
                   className="img-welcome"
@@ -134,23 +140,38 @@ const Index = () => {
             <div className="col-xl-6 pl-75">
               <div className="heading design-enjoy">
                 <h6>Small Story About Evolve.</h6>
-                <h2> We're a team of creative &amp; Experience Professionals and dedicated.</h2>
-                <img alt="line" src="assets/img/headingline.png" />
+                <h2>
+                  {" "}
+                  We're a team of creative &amp; Experience Professionals and
+                  dedicated.
+                </h2>
+                {/*<img alt="line" src="assets/img/headingline.png" />*/}
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                Our firm specializes in a wide range of marketing services, including branding, advertising, digital marketing, public relations, and event planning. 
-                We work closely with our clients to develop customized strategies that align with their unique goals and objectives.
+                  Our firm specializes in a wide range of marketing services,
+                  including branding, advertising, digital marketing, public
+                  relations, and event planning. We work closely with our
+                  clients to develop customized strategies that align with their
+                  unique goals and objectives.
                 </h6>
                 <h5>User Experience</h5>
                 <p>
-                User Experience (UX) in website design refers to the overall quality of the user's interaction with a website, encompassing everything from its usability and accessibility to the emotional 
-                response it elicits. A positive UX is paramount in creating websites that not only attract visitors but also keep them engaged and satisfied.{" "}
+                  User Experience (UX) in website design refers to the overall
+                  quality of the user's interaction with a website, encompassing
+                  everything from its usability and accessibility to the
+                  emotional response it elicits. A positive UX is paramount in
+                  creating websites that not only attract visitors but also keep
+                  them engaged and satisfied.{" "}
                 </p>
                 <h5>Digital Design</h5>
                 <p>
-                Evolve, we understand that in the digital landscape, first impressions are everything. Digital design is not just about aesthetics; it's about creating meaningful, 
-                immersive, and captivating user experiences. Our approach to digital design is rooted in innovation, creativity, and a relentless pursuit of excellence.
+                  Evolve, we understand that in the digital landscape, first
+                  impressions are everything. Digital design is not just about
+                  aesthetics; it's about creating meaningful, immersive, and
+                  captivating user experiences. Our approach to digital design
+                  is rooted in innovation, creativity, and a relentless pursuit
+                  of excellence.
                 </p>
                 <a href="services" className="themebtu">
                   More Services
@@ -166,7 +187,6 @@ const Index = () => {
           <div className="heading">
             <h6>How It Works?</h6>
             <h2> Our Approach to work</h2>
-            <img alt="line" src="assets/img/headingline.png" />
           </div>
           <div className="row pt-4">
             <div className="col-xl-4 col-lg-6">
@@ -175,8 +195,16 @@ const Index = () => {
                 <div className="pl-80">
                   <h4>Submit Your Design Request</h4>
                   <p>
-                  At Evolve, we understand that every great project begins with a vision. That's why our first approach to work is simple: Submit your design, and we'll transform your concept into a tangible masterpiece. Whether you have a rough sketch or a detailed blueprint, our team of skilled developers, designers, and project managers is ready to take your ideas and breathe life into them. We believe in collaborative creativity, 
-                  working closely with you to refine and optimize your design, ensuring it's not just visually stunning but also fully functional and user-friendly.
+                    At Evolve, we understand that every great project begins
+                    with a vision. That's why our first approach to work is
+                    simple: Submit your design, and we'll transform your concept
+                    into a tangible masterpiece. Whether you have a rough sketch
+                    or a detailed blueprint, our team of skilled developers,
+                    designers, and project managers is ready to take your ideas
+                    and breathe life into them. We believe in collaborative
+                    creativity, working closely with you to refine and optimize
+                    your design, ensuring it's not just visually stunning but
+                    also fully functional and user-friendly.
                   </p>
                 </div>
               </div>
@@ -187,8 +215,17 @@ const Index = () => {
                 <div className="pl-80">
                   <h4>We Start Working</h4>
                   <p>
-                  Once your design is submitted, it's time for action. Our second approach, "We Start Working," is all about turning plans into reality. Our agile and experienced development teams kick into high gear, bringing your project to life one line of code at a time. We embrace the latest technologies and best practices to ensure that your project is not only cutting-edge but also scalable, secure, and optimized for performance. With clear communication and 
-                a commitment to deadlines, we keep you informed and involved throughout the development process, ensuring your project is on track for success.{" "}
+                    Once your design is submitted, it's time for action. Our
+                    second approach, "We Start Working," is all about turning
+                    plans into reality. Our agile and experienced development
+                    teams kick into high gear, bringing your project to life one
+                    line of code at a time. We embrace the latest technologies
+                    and best practices to ensure that your project is not only
+                    cutting-edge but also scalable, secure, and optimized for
+                    performance. With clear communication and a commitment to
+                    deadlines, we keep you informed and involved throughout the
+                    development process, ensuring your project is on track for
+                    success.{" "}
                   </p>
                 </div>
               </div>
@@ -199,8 +236,16 @@ const Index = () => {
                 <div className="pl-80">
                   <h4>Get Your Projects Done! </h4>
                   <p>
-                  Our ultimate goal is to deliver results. Our third approach, "Get Your Projects Done!", is about bringing your vision to fruition. We're not just about creating impressive digital solutions; we're about achieving tangible outcomes for your business or organization. Whether it's launching a new website, developing a mobile app, or optimizing your digital presence, we ensure that your project is not just completed but delivered with excellence.
-                   We focus on quality assurance, testing, and user experience to guarantee that your project performs flawlessly and achieves your goals
+                    Our ultimate goal is to deliver results. Our third approach,
+                    "Get Your Projects Done!", is about bringing your vision to
+                    fruition. We're not just about creating impressive digital
+                    solutions; we're about achieving tangible outcomes for your
+                    business or organization. Whether it's launching a new
+                    website, developing a mobile app, or optimizing your digital
+                    presence, we ensure that your project is not just completed
+                    but delivered with excellence. We focus on quality
+                    assurance, testing, and user experience to guarantee that
+                    your project performs flawlessly and achieves your goals
                   </p>
                 </div>
               </div>
@@ -227,9 +272,7 @@ const Index = () => {
                 <div className="sercive-style-text">
                   <h6>Nidhi Vania Decor</h6>
                   <div className="boder" />
-                  <p>
-                  Website,CMS,SEO,Logo
-                  </p>
+                  <p>Website,CMS,SEO,Logo</p>
                   <a href="https://nidhivaniadecor.com/">View</a>
                 </div>
               </div>
@@ -242,13 +285,9 @@ const Index = () => {
                   src="https://res.cloudinary.com/denlhej9f/image/upload/v1694432703/Screenshot_2023-09-05_153418_ysfxho.png"
                 />
                 <div className="sercive-style-text">
-                  <h6>
-                    Evolve Marketing
-                  </h6>
+                  <h6>Evolve Marketing</h6>
                   <div className="boder" />
-                  <p>
-                  Website,CMS,SEO,Logo
-                  </p>
+                  <p>Website,CMS,SEO,Logo</p>
                   <a href="https://evolvemarketng.com/">View</a>
                 </div>
               </div>
@@ -261,13 +300,9 @@ const Index = () => {
                   src="https://res.cloudinary.com/denlhej9f/image/upload/v1694432688/Screenshot_2023-09-05_152915_glyib5.png"
                 />
                 <div className="sercive-style-text">
-                  <h6>
-                    Pranam Realty
-                  </h6>
+                  <h6>Pranam Realty</h6>
                   <div className="boder" />
-                  <p>
-                  Website,CMS,SEO,Logo
-                  </p>
+                  <p>Website,CMS,SEO,Logo</p>
                   <a href="/">View</a>
                 </div>
               </div>
@@ -280,13 +315,9 @@ const Index = () => {
                   src="https://res.cloudinary.com/denlhej9f/image/upload/v1694432702/Screenshot_2023-09-05_153007_astryr.png"
                 />
                 <div className="sercive-style-text">
-                  <h6>
-                    Sheetal Electrotech
-                  </h6>
+                  <h6>Sheetal Electrotech</h6>
                   <div className="boder" />
-                  <p>
-                  Website,CMS,SEO,Logo
-                  </p>
+                  <p>Website,CMS,SEO,Logo</p>
                   <a href="https://sheetalelectrotech.com/">View</a>
                 </div>
               </div>
@@ -305,22 +336,27 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="gap reaview-section">
         <div className="container">
           <div className="heading">
             <h6>Why Partner With Us?</h6>
-            <h2>What Our Clients Said About Terio</h2>
-            <img alt="line" src="assets/img/headingline.png" />
+            <h2>What Our Clients Said About Evolve</h2>
           </div>
           <Swiper {...partnerswiper} className="swiper-container partnerswiper">
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png" />
+                  <img
+                    alt="man"
+                    src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
+                  />
                   <p>
-                  &quot;The Evolve team are fast and efficient to work with. A really friendly team who are reliable and committed to helping your business grow. We would definitely 
-                  recommend them for any small business and their range of services has something suitable for everyone..&quot;
+                    &quot;The Evolve team are fast and efficient to work with. A
+                    really friendly team who are reliable and committed to
+                    helping your business grow. We would definitely recommend
+                    them for any small business and their range of services has
+                    something suitable for everyone..&quot;
                   </p>
                   <div className="boder" />
                   <span>
@@ -332,11 +368,16 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png" />
+                  <img
+                    alt="man"
+                    src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
+                  />
                   <p>
-                  &quot;Greatest appreciation to you and your team for the outstanding job you did for us. 
-                  The website is just what we wanted, and we were thrilled with the speed your team exercised. We feel privileged to have Evolve Marketing 
-                  as our online marketing partner!.&quot; 
+                    &quot;Greatest appreciation to you and your team for the
+                    outstanding job you did for us. The website is just what we
+                    wanted, and we were thrilled with the speed your team
+                    exercised. We feel privileged to have Evolve Marketing as
+                    our online marketing partner!.&quot;
                   </p>
                   <div className="boder" />
                   <span>
@@ -348,10 +389,15 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png" />
+                  <img
+                    alt="man"
+                    src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
+                  />
                   <p>
-                  &quot;The Team of Evolve provided us with 360-degree digital solutions, from website design to social media management and SEO. 
-                  I refer them to every business that wants to gain visibility and customers in the online world.&quot;
+                    &quot;The Team of Evolve provided us with 360-degree digital
+                    solutions, from website design to social media management
+                    and SEO. I refer them to every business that wants to gain
+                    visibility and customers in the online world.&quot;
                   </p>
                   <div className="boder" />
                   <span>
@@ -363,10 +409,15 @@ const Index = () => {
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reaview">
-                  <img alt="man" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png" />
+                  <img
+                    alt="man"
+                    src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
+                  />
                   <p>
-                  Thanks to Evolve Marketing, my online presence has not only expanded but thrived. My business has seen 
-                  significant growth in website traffic, conversions, and brand recognition. I couldn't be happier with the results.
+                    Thanks to Evolve Marketing, my online presence has not only
+                    expanded but thrived. My business has seen significant
+                    growth in website traffic, conversions, and brand
+                    recognition. I couldn't be happier with the results.
                   </p>
                   <div className="boder" />
                   <span>
@@ -429,11 +480,12 @@ const Index = () => {
           <div className="row">
             <div className="offset-xl-1 col-xl-10">
               <div className="video-img">
-                <img className="w-100" alt="img" src="https://res.cloudinary.com/denlhej9f/image/upload/v1693915328/pexels-mikael-blomkvist-6476260_1_kvetad.jpg" />
-                <a
-                  data-fancybox
-                  href="https://youtu.be/Z-_Cj19Gsos"
-                >
+                <img
+                  className="w-100"
+                  alt="img"
+                  src="https://res.cloudinary.com/denlhej9f/image/upload/v1693915328/pexels-mikael-blomkvist-6476260_1_kvetad.jpg"
+                />
+                <a data-fancybox href="https://youtu.be/Z-_Cj19Gsos">
                   <i className="fa-solid fa-play" />
                 </a>
               </div>
@@ -466,15 +518,18 @@ const Index = () => {
                     <div className="heading">
                       <h6>Get In Touch</h6>
                       <h2> Kick Start Your Awesome Design Now!</h2>
-                      <img alt="line" src="assets/img/headingline.png" />
                       <p>
-                      Getting in touch is the first step towards forging meaningful connections and unlocking new opportunities.
+                        Getting in touch is the first step towards forging
+                        meaningful connections and unlocking new opportunities.
                       </p>
                     </div>
                   </div>
                   <div className="col-xl-6">
-                    <form action="https://formspree.io/f/xeqbkdag"
-                     method="POST" className="touch">
+                    <form
+                      action="https://formspree.io/f/xeqbkdag"
+                      method="POST"
+                      className="touch"
+                    >
                       <div className="row">
                         <div className="col-lg-4 col-md-6">
                           <input
@@ -522,7 +577,7 @@ const Index = () => {
           <div className="heading">
             <h6>our blog</h6>
             <h2>News and Thoughts</h2>
-            <img alt="line" src="assets/img/headingline.png" />
+            {/*<img alt="line" src="assets/img/headingline.png" />*/}
           </div>
           <Swiper {...latestswiper} className="swiper-container latestswiper">
             <div className="swiper-wrapper">
@@ -541,7 +596,8 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    The Importance of Responsive Web Design: Why Mobile Optimization.
+                      The Importance of Responsive Web Design: Why Mobile
+                      Optimization.
                     </h4>
                   </a>
                   <span>by Evolve | Web Development</span>
@@ -562,7 +618,8 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    Choosing the Right Content Management System (CMS) for Your Website
+                      Choosing the Right Content Management System (CMS) for
+                      Your Website
                     </h4>
                   </a>
                   <span>by Evolve | Web Development</span>
@@ -583,7 +640,8 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    Effective Website Branding: Building a Strong Online Identity
+                      Effective Website Branding: Building a Strong Online
+                      Identity
                     </h4>
                   </a>
                   <span>by Evolve | Branding</span>
@@ -604,7 +662,8 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    The Power of E-Commerce: How to Launch and Grow Your Online Store
+                      The Power of E-Commerce: How to Launch and Grow Your
+                      Online Store
                     </h4>
                   </a>
                   <span>by Evolve | online store</span>
@@ -625,7 +684,8 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    The Role of SEO in Website Development: A Comprehensive Guide
+                      The Role of SEO in Website Development: A Comprehensive
+                      Guide
                     </h4>
                   </a>
                   <span>by Evolve | SEO</span>
@@ -646,13 +706,12 @@ const Index = () => {
                   </a>
                   <a href="blog-single-post.html">
                     <h4>
-                    The Latest Web Design Trends: What’s In and What’s Out
+                      The Latest Web Design Trends: What’s In and What’s Out
                     </h4>
                   </a>
                   <span>by Evolve | Web Design</span>
                 </div>
               </SwiperSlide>
-          
             </div>
             <div className="swiper-pagination" />
           </Swiper>

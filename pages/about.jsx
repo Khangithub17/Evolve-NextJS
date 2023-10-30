@@ -40,7 +40,7 @@ const About = () => {
                 <h6>We Dream Digital.</h6>
                 <h2> We do
                   things  &amp; uniquely</h2>
-                <img alt="line" src="assets/img/headingline.png" />
+              {/*<img alt="line" src="assets/img/headingline.png" />*/}
               </div>
               <div className="welcome-text">
             
@@ -72,7 +72,7 @@ const About = () => {
           <div className="container">
             <div className="heading two">
               <h2>We Deliver Results</h2>
-              <img alt="line" src="assets/img/headingline.png" />
+             {/*<img alt="line" src="assets/img/headingline.png" />*/}
             </div>
             <div className="row">
               <div className="col-xl-4 col-lg-6">

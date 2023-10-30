@@ -6,7 +6,12 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer-logo">
               <a href="home">
-                <img alt="img" src="https://res.cloudinary.com/denlhej9f/image/upload/v1694430614/logo2_6_lynvqq.png" />
+              <img
+                      alt="logo"
+                      src="assets/img/logo2.png"
+                      className="logo2"
+                      style={{width: "150px",height: "auto"}}
+                    />
               </a>
               <p>
                
@@ -74,8 +79,18 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2023 Evolve - All Rights Reserved | Developed by Evolve Marketing</p>
+          <p>© 2023 Evolve - All Rights Reserved | Developed by <a href="https://evolvemarketng.com/" style={{color: "white"}}>Evolve Marketing</a></p>
           <ul>
+          <li>
+              <a href="https://www.linkedin.com/company/evolve-marketng/mycompany/">
+                <i className="fa-brands fa-linkedin-in" />
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/evolve_marketing_india?igshid=MzRlODBiNWFlZA==">
+                <i className="fa-brands fa-instagram" />
+              </a>
+            </li>
             <li>
               <a href="#">
                 <i className="fa-brands fa-facebook-f" />
@@ -86,16 +101,8 @@ const Footer = () => {
                 <i className="fa-brands fa-twitter" />
               </a>
             </li>
-            <li>
-              <a href="https://instagram.com/evolve_marketing_india?igshid=MzRlODBiNWFlZA==">
-                <i className="fa-brands fa-instagram" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/evolve-marketng/mycompany/">
-                <i className="fa-brands fa-linkedin-in" />
-              </a>
-            </li>
+           
+           
           </ul>
         </div>
       </div>

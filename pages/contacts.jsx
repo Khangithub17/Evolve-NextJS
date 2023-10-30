@@ -20,7 +20,7 @@ const Contacts = () => {
           <div className="heading">
             <h6>Start Your Project With Us.</h6>
             <h2>Let's Talk</h2>
-            <img alt="line" src="assets/img/headingline.png" />
+           {/*<img alt="line" src="assets/img/headingline.png" />*/}
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6">

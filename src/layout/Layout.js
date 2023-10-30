@@ -15,7 +15,9 @@ const Layout = ({
   return (
     <Fragment>
       <Head>
-        <title>Evolve Matketing - Development Agency {pageName}</title>
+        <title>Evolve Marketing - Development Agency {pageName}</title>
+        <meta name="Evolve Marketing | Boost Your Online Presence" content="Discover result-driven digital marketing strategies at Evolve. We specialize in SEO, PPC, social media, and web design services to boost your brand's online success. Partner with us today" />
+        <meta name="Evolve Marketing | Development Agency" content="Best Development Agency in Australia,Website Development,Wordpress Design,Graphic Designing,Branding," />
       </Head>
       <VideoPopup />
       <ImageView />

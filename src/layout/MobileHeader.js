@@ -20,7 +20,12 @@ const MobileHeader = ({ toggle, close }) => {
     >
       <div className="res-log">
         <a href="index.html">
-          <img src="https://res.cloudinary.com/denlhej9f/image/upload/v1694430614/logo2_6_lynvqq.png" alt="Responsive Logo" />
+        <img
+                      alt="logo"
+                      src="assets/img/logo2.png"
+                      className="logo2"
+                      style={{width: "150px",height: "auto"}}
+                    />
         </a>
       </div>
       <ul>
