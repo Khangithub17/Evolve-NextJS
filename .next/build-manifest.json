@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/wordpress-development": [
+    "/about": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/wordpress-development.js"
+      "static/chunks/pages/about.js"
     ]
   },
   "ampFirstPages": []

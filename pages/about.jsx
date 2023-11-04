@@ -45,7 +45,7 @@ const About = () => {
               <div className="welcome-text">
             
                 <p className="pt-4 pb-5">
-                Welcome to Evolve marketing! EVOLVE is a data-driven full service marketing agency. 
+                Welcome to e360Solutions! <br></br>e360Solutions is a data-driven full service marketing agency. 
                 We are a team of creative and experienced professionals dedicated to helping businesses grow and succeed in today's ever-evolving marketplace.
                 Our firm specializes in a wide range of marketing services, including branding, advertising, digital marketing, public relations, and event planning. 
                 We work closely with our clients to develop customized strategies that align with their unique goals and objectives.

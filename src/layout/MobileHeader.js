@@ -20,16 +20,20 @@ const MobileHeader = ({ toggle, close }) => {
     >
       <div className="res-log">
         <a href="index.html">
-        <img
-                      alt="logo"
-                      src="assets/img/logo2.png"
-                      className="logo2"
-                      style={{width: "150px",height: "auto"}}
-                    />
+          <img
+            alt="logo"
+            src="assets/img/logo2.png"
+            className="logo2"
+            style={{ width: "150px", height: "auto" }}
+          />
         </a>
       </div>
       <ul>
-        <li className={`menu-item-has-children ${activeMenu === "Home" ? "active" : ""}`}>
+        <li
+          className={`menu-item-has-children ${
+            activeMenu === "Home" ? "active" : ""
+          }`}
+        >
           <Link legacyBehavior href="/">
             Home
           </Link>
@@ -40,7 +44,10 @@ const MobileHeader = ({ toggle, close }) => {
           </Link>
         </li>
         <li>
-          <a href="JavaScript:void(0)" onClick={toggleServicesSubMenu}>Services</a> {/* Step 3: Add click handler */}
+          <a href="JavaScript:void(0)" onClick={toggleServicesSubMenu}>
+            Services
+          </a>{" "}
+          {/* Step 3: Add click handler */}
           {servicesSubMenu && ( // Render submenu items if the submenu is active
             <ul className="submenu">
               <li>

@@ -16,7 +16,7 @@ const Index = () => {
           <div className="heading-boder">
             <h2>
               <span>Evolve </span>
-              Your brands Success is our top priority.{" "}
+              e360 Solutions.{" "}
             </h2>
             <p>Let us help your business.</p>
             <a href="services" className="themebtu full">
@@ -195,7 +195,7 @@ const Index = () => {
                 <div className="pl-80">
                   <h4>Submit Your Design Request</h4>
                   <p>
-                    At Evolve, we understand that every great project begins
+                    At e360Solutions, we understand that every great project begins
                     with a vision. That's why our first approach to work is
                     simple: Submit your design, and we'll transform your concept
                     into a tangible masterpiece. Whether you have a rough sketch
@@ -352,7 +352,7 @@ const Index = () => {
                     src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
                   />
                   <p>
-                    &quot;The Evolve team are fast and efficient to work with. A
+                    &quot;The e360Solutions team are fast and efficient to work with. A
                     really friendly team who are reliable and committed to
                     helping your business grow. We would definitely recommend
                     them for any small business and their range of services has

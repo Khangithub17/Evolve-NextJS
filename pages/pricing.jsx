@@ -70,11 +70,7 @@ const Pricing = () => {
                   <li className="pb-0">
                     <i className="fa-solid fa-check" />
                     Support & Maintenance 6 months
-
                   </li>
-
-
-
                 </ul>
                 <a href="contacts" className="themebtu">
                   Get Started
@@ -92,11 +88,11 @@ const Pricing = () => {
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Domain Name 
+                    Domain Name
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Web Hosting 2 Year 
+                    Web Hosting 2 Year
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
@@ -151,11 +147,11 @@ const Pricing = () => {
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Domain Name 
+                    Domain Name
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    Web Hosting 4 Year 
+                    Web Hosting 4 Year
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />

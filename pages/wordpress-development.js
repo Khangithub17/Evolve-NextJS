@@ -374,7 +374,6 @@ const wordpressdevelopment = () => {
                 />
               </div>
             </div>
-           
 
             {/* Technology Card 3 */}
             <div className="col-md-4 mb-4">
@@ -389,7 +388,7 @@ const wordpressdevelopment = () => {
             </div>
 
             {/* Technology Card 4 */}
-           
+
             <div className="col-md-4 mb-4">
               <div className="card">
                 <img

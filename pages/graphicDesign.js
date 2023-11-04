@@ -6,13 +6,26 @@ const graphicDesign = () => {
       <section>
         <div className="container">
           <div className="title-blog">
-            <h1 style={{ color: "#485094", paddingBottom: "20px",fontSize: "60px"  }}>DESIGNING DREAMS<br/>SHAPING REALITY </h1>
+            <h1
+              style={{
+                color: "#485094",
+                paddingBottom: "20px",
+                fontSize: "60px",
+              }}
+            >
+              DESIGNING DREAMS
+              <br />
+              SHAPING REALITY{" "}
+            </h1>
             <h3>
-            Enhance Your Brand with Our Innovative Online Graphic Design Services.
+              Enhance Your Brand with Our Innovative Online Graphic Design
+              Services.
             </h3>
           </div>
           <div className="row">
-            <div className="col-xl-12"> {/* Modify the width of this column */}
+            <div className="col-xl-12">
+              {" "}
+              {/* Modify the width of this column */}
               <div className="blog-item hoverstyle">
                 <figure>
                   <img
@@ -22,34 +35,28 @@ const graphicDesign = () => {
                   />
                 </figure>
                 <p className="p-30">
-                Graphic design plays a pivotal role in web development, as it greatly influences the visual appeal and functionality of websites. Effective graphic design not only makes a website aesthetically pleasing but also enhances user experience and conveys essential information. Here's a comprehensive overview of the importance and elements of graphic design in web development
+                  Graphic design plays a pivotal role in web development, as it
+                  greatly influences the visual appeal and functionality of
+                  websites. Effective graphic design not only makes a website
+                  aesthetically pleasing but also enhances user experience and
+                  conveys essential information. Here's a comprehensive overview
+                  of the importance and elements of graphic design in web
+                  development
                   <br />
                   <br />
-                
-               
                 </p>
 
-               <div>
-                
-                </div> 
-                
+                <div></div>
               </div>
-
               <div className="row align-items-center">
                 <div className="col-lg-6">
-                  <div className="portfolimg hoverstyle">
-                   
-                  </div>
+                  <div className="portfolimg hoverstyle"></div>
                 </div>
                 <div className="col-lg-6">
-                  <div className="portfolimg hoverstyle">
-                   
-                  </div>
+                  <div className="portfolimg hoverstyle"></div>
                 </div>
               </div>
-              <p className="p-30">
-                
-              </p>
+              <p className="p-30"></p>
             </div>
           </div>
         </div>
@@ -58,12 +65,12 @@ const graphicDesign = () => {
         style={{
           backgroundColor: "#d5edef",
           padding: "40px 0",
-          textAlign: "center", 
+          textAlign: "center",
         }}
       >
         <div className="container">
           <h2 style={{ color: "black", paddingBottom: "20px" }}>
-          WE OFFER BUSINESS PRODUCTS SUCH AS..
+            WE OFFER BUSINESS PRODUCTS SUCH AS..
           </h2>
           <div className="row">
             {/* Image Cards */}
@@ -81,7 +88,9 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Logo Design</h5>
                   <p className="card-text">
-                    A well-designed logo and consistent branding can help a company to stand out from its competitors and build recognition among its target audience.
+                    A well-designed logo and consistent branding can help a
+                    company to stand out from its competitors and build
+                    recognition among its target audience.
                   </p>
                 </div>
               </div>
@@ -100,7 +109,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Business Cards</h5>
                   <p className="card-text">
-                    Professionally designed business cards leave a lasting impression on clients and partners.
+                    Professionally designed business cards leave a lasting
+                    impression on clients and partners.
                   </p>
                 </div>
               </div>
@@ -119,7 +129,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Brochures and Flyers</h5>
                   <p className="card-text">
-                    Graphic designers craft eye-catching brochures and flyers for marketing campaigns, events, and promotions.
+                    Graphic designers craft eye-catching brochures and flyers
+                    for marketing campaigns, events, and promotions.
                   </p>
                 </div>
               </div>
@@ -131,13 +142,14 @@ const graphicDesign = () => {
                     src="https://res.cloudinary.com/denlhej9f/image/upload/v1694605118/poster_1_yfnrb1.png"
                     alt="Brochures and Flyers"
                     className="card-img-top"
-                    style={{ width: "50px", height: "50px",}}
+                    style={{ width: "50px", height: "50px" }}
                   />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Posters and Banners</h5>
                   <p className="card-text">
-                  Creative posters and banners are designed for events, conferences, and product launches.
+                    Creative posters and banners are designed for events,
+                    conferences, and product launches.
                   </p>
                 </div>
               </div>
@@ -155,7 +167,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Advertisements</h5>
                   <p className="card-text">
-                  Graphic designers create visually engaging digital advertisements for online marketing campaigns.
+                    Graphic designers create visually engaging digital
+                    advertisements for online marketing campaigns.
                   </p>
                 </div>
               </div>
@@ -173,7 +186,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Illustrations and Icons</h5>
                   <p className="card-text">
-                  Illustrations and icons are custom-designed to enhance websites and marketing materials.
+                    Illustrations and icons are custom-designed to enhance
+                    websites and marketing materials.
                   </p>
                 </div>
               </div>
@@ -191,7 +205,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Social Media Post</h5>
                   <p className="card-text">
-                  As a professional, it's important to use a tone that is respectful and courteous when posting on social media.
+                    As a professional, it's important to use a tone that is
+                    respectful and courteous when posting on social media.
                   </p>
                 </div>
               </div>
@@ -209,7 +224,8 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Letterhead</h5>
                   <p className="card-text">
-                    Graphic designers craft eye-catching brochures and flyers for marketing campaigns, events, and promotions.
+                    Graphic designers craft eye-catching brochures and flyers
+                    for marketing campaigns, events, and promotions.
                   </p>
                 </div>
               </div>
@@ -227,22 +243,22 @@ const graphicDesign = () => {
                 <div className="card-body">
                   <h5 className="card-title">Product Presentations</h5>
                   <p className="card-text">
-                  Packaging design is crucial for product visibility and attracting consumers. Graphic designers design product packaging that stands out on store shelves.
+                    Packaging design is crucial for product visibility and
+                    attracting consumers. Graphic designers design product
+                    packaging that stands out on store shelves.
                   </p>
                 </div>
               </div>
             </div>
-           
-          
+
             {/* Add more image cards */}
           </div>
         </div>
       </section>
-    
+
       {/* End of New Section */}
-  
     </Layout>
   );
 };
 
-export default graphicDesign ;
+export default graphicDesign;
