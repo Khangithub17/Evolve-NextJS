@@ -53,7 +53,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <a href="mailto:this.evolve@gmail.com">
-                    <span>this.evolve@gmail.com</span>
+                    <span>jay@evolvemarketng.com</span>
                   </a>
                 
 

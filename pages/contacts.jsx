@@ -60,8 +60,8 @@ const Contacts = () => {
                 </li>
                 <li>
                   <h4>Email :</h4>
-                  <a href="mailto:this.evolve@gmail.com">
-                    <span>this.evolve@gmail.com</span>
+                  <a href="mailto:jay@evolvemarketng.com">
+                    <span>jay@evolvemarketng.com</span>
                   </a>
                 </li>
                 <li>
