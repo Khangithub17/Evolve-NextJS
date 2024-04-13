@@ -21,6 +21,7 @@ const Layout = ({
       </Head>
       <VideoPopup />
       <ImageView />
+      
       <Header
         headerExtraClass={headerExtraClass}
         noHeaderBg={noHeaderBg}
@@ -30,6 +31,7 @@ const Layout = ({
       <Footer />
       <ScrollTop />
     </Fragment>
+    
   );
 };
 export default Layout;

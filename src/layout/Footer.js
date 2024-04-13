@@ -6,16 +6,14 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer-logo">
               <a href="home">
-              <img
-                      alt="logo"
-                      src="assets/img/logo2.png"
-                      className="logo2"
-                      style={{width: "150px",height: "auto"}}
-                    />
+                <img
+                  alt="logo"
+                  src="assets/img/logo2.png"
+                  className="logo2"
+                  style={{ width: "150px", height: "auto" }}
+                />
               </a>
-              <p>
-               
-              </p>
+              <p></p>
             </div>
           </div>
           <div className="col-xl-3 col-lg-4 col-md-6">
@@ -46,21 +44,18 @@ const Footer = () => {
               <ul>
                 <li>
                   <p>
-                  4 Shankar Road Tarneit Victoria 3029,Australia
-                  <li>
-                  <a href="callto:+61 452192488">
-                    <span>+61 452192488</span>
-                  </a>
-                </li>
-                <a href="mailto:this.evolve@gmail.com">
-                    <span>jay@evolvemarketng.com</span>
-                  </a>
-                
-
+                    4 Shankar Road Tarneit Victoria 3029,Australia
+                    <li>
+                      <p>ABN No - 88-532-439-761</p>
+                      <a href="callto:+61 452192488">
+                        <span>+61 452192488</span>
+                      </a>
+                    </li>
+                    <a href="mailto:this.evolve@gmail.com">
+                      <span>jay@evolvemarketng.com</span>
+                    </a>
                   </p>
                 </li>
-                
-               
               </ul>
             </div>
           </div>
@@ -78,10 +73,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        
         <div className="footer-bottom">
-          <p>© 2023 Evolve - All Rights Reserved | Developed by <a href="https://evolvemarketng.com/" style={{color: "white"}}>Evolve Marketing</a></p>
+          <p>
+            © 2023 Evolve - All Rights Reserved | Developed by{" "}
+            <a href="https://evolvemarketng.com/" style={{ color: "white" }}>
+              Evolve Marketing
+            </a>
+          </p>
           <ul>
-          <li>
+            <li>
               <a href="https://www.linkedin.com/company/evolve-marketng/mycompany/">
                 <i className="fa-brands fa-linkedin-in" />
               </a>
@@ -101,8 +102,6 @@ const Footer = () => {
                 <i className="fa-brands fa-twitter" />
               </a>
             </li>
-           
-           
           </ul>
         </div>
       </div>

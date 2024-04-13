@@ -2,6 +2,7 @@ import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
 import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 const Index = () => {
   return (
     <Layout noHeaderBg pageName={"Home"}>
@@ -195,16 +196,16 @@ const Index = () => {
                 <div className="pl-80">
                   <h4>Submit Your Design Request</h4>
                   <p>
-                    At e360Solutions, we understand that every great project begins
-                    with a vision. That's why our first approach to work is
-                    simple: Submit your design, and we'll transform your concept
-                    into a tangible masterpiece. Whether you have a rough sketch
-                    or a detailed blueprint, our team of skilled developers,
-                    designers, and project managers is ready to take your ideas
-                    and breathe life into them. We believe in collaborative
-                    creativity, working closely with you to refine and optimize
-                    your design, ensuring it's not just visually stunning but
-                    also fully functional and user-friendly.
+                    At e360Solutions, we understand that every great project
+                    begins with a vision. That's why our first approach to work
+                    is simple: Submit your design, and we'll transform your
+                    concept into a tangible masterpiece. Whether you have a
+                    rough sketch or a detailed blueprint, our team of skilled
+                    developers, designers, and project managers is ready to take
+                    your ideas and breathe life into them. We believe in
+                    collaborative creativity, working closely with you to refine
+                    and optimize your design, ensuring it's not just visually
+                    stunning but also fully functional and user-friendly.
                   </p>
                 </div>
               </div>
@@ -352,9 +353,9 @@ const Index = () => {
                     src="https://res.cloudinary.com/denlhej9f/image/upload/v1693912832/customer-review_tlbpn5.png"
                   />
                   <p>
-                    &quot;The e360Solutions team are fast and efficient to work with. A
-                    really friendly team who are reliable and committed to
-                    helping your business grow. We would definitely recommend
+                    &quot;The e360Solutions team are fast and efficient to work
+                    with. A really friendly team who are reliable and committed
+                    to helping your business grow. We would definitely recommend
                     them for any small business and their range of services has
                     something suitable for everyone..&quot;
                   </p>

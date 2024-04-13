@@ -4,6 +4,7 @@ import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 const App = ({ Component, pageProps }) => {
+ 
   const [loader, setLoader] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -72,6 +73,8 @@ const App = ({ Component, pageProps }) => {
       {/*<Preloader />*/}
       {!loader && <Component {...pageProps} />}
     </Fragment>
+
+  
   );
 };
 export default App;

@@ -20,11 +20,15 @@ const Contacts = () => {
           <div className="heading">
             <h6>Start Your Project With Us.</h6>
             <h2>Let's Talk</h2>
-           {/*<img alt="line" src="assets/img/headingline.png" />*/}
+            {/*<img alt="line" src="assets/img/headingline.png" />*/}
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6">
-              <form className="content-form"  action="https://formspree.io/f/xeqbkdag" method="POST">
+              <form
+                className="content-form"
+                action="https://formspree.io/f/xeqbkdag"
+                method="POST"
+              >
                 <div className="row">
                   <div className="col-lg-6">
                     <input type="text" name="name" placeholder="Your Name *" />
@@ -47,7 +51,7 @@ const Contacts = () => {
                 <li>
                   <h4>Address : </h4>
                   <span>
-                   4 Shankar Road Tarneit
+                    4 Shankar Road Tarneit
                     <br />
                     Victoria 3029,Australia
                   </span>
@@ -74,16 +78,11 @@ const Contacts = () => {
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fa-brands fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
                         <i className="fa-brands fa-instagram" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/evolvemarketng/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BZlQmD9ZTQLKQG1mn0XE3PQ%3D%3D">
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </li>
@@ -109,9 +108,7 @@ const Contacts = () => {
             <div className="col-xl-4">
               <div className="heading">
                 <h2>Offices</h2>
-                <p>
-                 Our Branch 
-                </p>
+                <p>Our Branch</p>
               </div>
             </div>
             <div className="col-xl-8">
@@ -120,7 +117,7 @@ const Contacts = () => {
                 className="swiper-container studiesswiper"
               >
                 <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide" >
+                  <SwiperSlide className="swiper-slide">
                     <div className="view-map hoverstyle">
                       <figure>
                         <img
@@ -133,15 +130,15 @@ const Contacts = () => {
                         <i className="fa-solid fa-user" />
                         <h5>Vapi,Gujarat</h5>
                         <p>
-                         307,Pramukh Orbit Mahavir Nagar Vapi,Gujarat,396191(IN)
-                         
+                          307,Pramukh Orbit Mahavir Nagar
+                          Vapi,Gujarat,396191(IN)
                         </p>
-                        <a href="https://www.google.com/maps/place/Evolve+Marketing+%7C+Digital+Agency+Vapi/@20.3704066,72.9215387,15z/data=!4m6!3m5!1s0x3be0cfd09f78eee5:0xe8cf2c1f694d1df1!8m2!3d20.3704066!4d72.9215387!16s%2Fg%2F11sdrzg_26?entry=ttu">view map</a>
+                        <a href="https://www.google.com/maps/place/Evolve+Marketing+%7C+Digital+Agency+Vapi/@20.3704066,72.9215387,15z/data=!4m6!3m5!1s0x3be0cfd09f78eee5:0xe8cf2c1f694d1df1!8m2!3d20.3704066!4d72.9215387!16s%2Fg%2F11sdrzg_26?entry=ttu">
+                          view map
+                        </a>
                       </div>
                     </div>
                   </SwiperSlide>
-                 
-                  
                 </div>
                 <div className="swiper-pagination" />
               </Swiper>
